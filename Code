@@ -1,0 +1,101 @@
+user=input("These are the areas in english we are going to help you improve in.(Input Essays to begin)This program will help you improve in each of these english skills(essays,grammar,sentence structures,and comprhension:")
+if user=="Essays"or"essay":
+  print("To practice your essay skills, we are going to give you a sample prompt to follow. Read the prompt and write a sample essay.")
+prompt=("Write an essay explaining how fear can have positive effects or give an advantage to a situation. ")
+print(prompt)
+essay=input("Write your essay here:")
+print("Answer the questions below.")
+q1=input("Did you include an introductory paragraph?(yes or no):")
+if q1=="yes":
+  print("Good job")
+elif q1=="no":
+  print("The introductory paragraph should always be the first paragraph of your essay. The introductory paragraph sets the tone for your essay and it tells the reader what your essay is going to be about.")
+q2=input("Did you include a thesis statement(yes or no):")
+if q2=="yes":
+  print("Good job!")
+elif q2=="no":
+  print("A thesis statement discusses what you will be covering in your essay. The thesis statement should always be included in your introductory paragraph.Here's an example: Fear gives an advantage to a situation because fear causes people to make more mistakes due to the pressure they have when they are making a decision.")
+else:
+  print("This does not pertain to the essay.")
+q3=input("Did you include at least 2-3 paragraphs and a conclusion?(yes or no):")
+if q3=="yes":
+  print("Good job!")
+elif q3=="no":
+   print("Whenever you are writing an essay make sure you include 2-3 paragraphs.Each paragraph should have 3-6 sentences. The conclusion paragraph should be the last paragraph in the essay. The conclusion paragraph should include 2-3 sentences and you should restate your thesis statement.")
+else:
+  print("Your answer does not pertain to the essay.")
+q4=input("In your paragraphs did you incude 2 pieces of evidence?(yes or no):")
+if q4=="yes":
+   print("Good job!")
+elif q4=="no":
+   print("You should include at least two pieces of evidence in your essay, that way the reader can actually see your point of view. Your evidence can be personal, historical, literal, or circumstantial.")
+else:
+  print("Your answer does not pertain to the essay.")
+print("You have completed the essay portion of the program.")
+print("To improve your grammar skills, we are going to show you sentences that are not grammatically correct. You have to choose the correct answer for each question and if you don't understand we are going to help you.")
+print("Q1:We all eat the fish and make desert. Correct this sentence.")
+print("A.Change eat to ate")
+print("B.Capitalize fish")
+print("C.Change make to made")
+print("D.No change")
+g1response=input("Enter your answer:")
+if g1response=="A"or g1response=="a":
+  print("You are correct.")
+else:
+  print("You are incorrect because no other words need to be capitalized and the new word had to be past tense.")
+print("Q2:Anna and Mike is going skiing.Correct this sentence")
+print("A.Change and to or.")
+print("B.Change Mike to mike")
+print("C.Change Anna to anna")
+print("D.Change is to are")
+g2=input("Enter your answer")
+if g2=="D"or g2=="d":
+  print("You are correct because the sentence is plural.")
+else:
+  print("You are incorrect because all names are supposed to be capitalized and the sentence should remain plural because there is more than just one person.")
+print("Q3:Anna and Pat are married;he has been together for 20 years. Correct the sentence")
+print("A.Remove the semicolon")
+print("B.Capitalize he")
+print("C.Change he to they")
+print("D.None of the above")
+g3=input("Enter your answer")
+if g3=="C"or g3=="c":
+  print("You are correct")
+else:
+  print("You are incorrect because the sentence is plural and not singular which meant that he had to be changed to they because it was more than one person.")
+print("You have completed the grammar portion of the program")
+print("We are now going to review sentence structures.")
+print("There are four types of sentence structures:Simple,Compound,Complex,Compound-Complex")
+print("Here are examples of each sentence structure.")
+print("Simple:There is a new basketball game.(A simple sentence contains only one independent clause)")
+print("Compound:He completed his english review, and created a reference list.(A compound sentence contains at least one independent clause and at least one dependent clause.)")
+print("Complex:Because there was a fire, school got cancelled.(A complex sentence contains at least one independent clause and at least one dependent clause.)")
+print("Compound-Complex:Although the party was tomorrow, John continued to plan for an after party,and privately searched for a venue.( A compound-complex sentence contains at least two independent clauses and at least one dependent clause.)")
+print("Now practice typing sentences using these sentence structures.")
+structure=input("Practice your sentence structure here: ")
+print("You have completed the sentence structure section")
+print("You will now start the comprehension section")
+print("You will now read a short poem and answer 4 questions related to the poem.")
+print("Is 4 the same 4 for everybody? Are all sevens equal? What color is the scent of the blue weeping of violets?Why doesn’t Thursday talk itself into coming after Friday?If I have died and don’t know it of whom do I ask the time?")
+print("Q1:When does the author use imagery in the poem?")
+print("A.blue weeping of violets")
+print("B.Are all sevens equal.")
+print("C.is 4 the same for everybody?")
+print("D.What color is the scent")
+ss1=input("Enter your answer")
+if ss1=="A"or ss1=="a":
+  print("You are correct")
+else:
+  print("You are incorrect because imagery appeals to the five senses which in this cause would be sight and smell.")
+print("Q2:What is the mood of the poem?")
+print("A.energetic")
+print("B.Sad")
+print("C.curious")
+print("D.Angry")
+ss2=input("Please enter your answer")
+if ss2=="C"or ss2=="c":
+  print("You are correct")
+else:
+  print("You are incorrect because this poem is questioning things, not implying a certain emotion.")
+print("Well done, you have completed your english review. I hope you enjoyed this program and that it has helped you improve you english skills.")
+  
